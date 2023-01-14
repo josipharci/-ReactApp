@@ -1,15 +1,14 @@
-
 import './Navbar.scss';
-import logo from './Img/logo.png'
+import logo from './Img/logo.png';
 
 const Navbar = () => {
     return(
-        <div className='navbar'>
-            <div className='logo_box'>
+        <div class='navbar'>
+            <div class='logo_box'>
                 <img src={logo} alt="Logo"/>
             </div>
-            <div className='nav_box'>
-                  <p>HOME</p>
+            <div class='nav_box'>
+               
             </div>
         </div>
     )
