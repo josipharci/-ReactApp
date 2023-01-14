@@ -1,9 +1,10 @@
-import './App.scss'
+import './App.scss';
+import Navbar from './Navbar.js';
 
 function App() {
   return (
     <div class="header">
-      <h2>Hello World!</h2>
+      <Navbar/>
     </div>
   );
 }
