@@ -1,6 +1,8 @@
-import {Link} from 'react-router-dom';
+import {Link,NavLink} from 'react-router-dom';
 import './Navbar.scss';
 import logo from './Img/logo.png';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faFacebook,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
     return(
@@ -13,7 +15,12 @@ const Navbar = () => {
             <Link to="/">ABOUT</Link> 
             <Link to="/">CONTACT</Link> 
                <div class="SocialLink">
-                
+                   <NavLink>
+                      <FontAwesomeIcon icon={faFacebook} color='#fff'/>
+                   </NavLink>
+                   <NavLink>
+                      <FontAwesomeIcon icon={faLinkedin} color='#fff'/>
+                   </NavLink>
                </div>
             </div>
         </div>
