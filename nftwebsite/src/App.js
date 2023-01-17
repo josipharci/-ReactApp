@@ -1,5 +1,6 @@
 import './App.scss';
 import Navbar from './Navbar.js';
+import Border from './Img/img1.jpg'; 
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Navbar/>
       <div class="Container">
         <div class="Border">
-
+            <img src={Border} alt="img"/>
         </div>
       </div>
     </div>
