@@ -1,22 +1,23 @@
-import './App.scss';
-import Navbar from './Navbar.js';
-import Border from './Img/img1.png'; 
 
-function App() {
+import './App.scss';
+import {Routes,Route} from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/Home';
+import About from './components/About';
+import Project from './components/Project';
+import Contact from './components/Contact';
+function App(){
   return (
-    
-    <div class="header">
-      <Navbar/>
-      <div class="Container">
-        <div class="Border">
-            <img src={Border} alt="img"/>
-            <div class="Text">
-                <h2>Lucky Rabbit Club</h2>
-                <p>An Environment that is connecting Creative and like-minded people, communiti-driven project!</p>
-            </div>
-        </div>
-      </div>
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+      <Route index element={<Home />}/>
+      <Route path='About' element={<About />}/>
+      <Route path='Project' element={<Project />}/>
+      <Route path='Contact' element={<Contact />}/>
+      </Route>
+    </Routes>
+    </>
   );
 }
 
