@@ -2,7 +2,7 @@ import './index.scss';
 
 const Project = () => {
     return(
-      'hello'
+      'hello bla'
     );
 }
 export default Project;
