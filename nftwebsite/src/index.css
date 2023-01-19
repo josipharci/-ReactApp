@@ -13,3 +13,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body{
+  background: linear-gradient(
+     -119deg,
+     #5581F1 0%,
+     #1153FC 100%); 
+}
