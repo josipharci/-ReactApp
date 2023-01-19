@@ -10,10 +10,8 @@ $font-one: 'Rubik Bubbles', cursive;
 
 $font-two: 'Roboto', sans-serif;
 
-.body{
-    background: linear-gradient(
-       -119deg,
-       #C165DD 0%,
-       #5C27FE 100%); 
- }
+
  
+ @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+ $font-pix:'VT323', monospace;

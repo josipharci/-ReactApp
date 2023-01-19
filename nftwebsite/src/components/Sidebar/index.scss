@@ -1,7 +1,10 @@
 $link: #fff;
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$font-pix:'VT323', monospace;
 
 .sidebar{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-pix;
     position: absolute;
     top: 0;
     width: 100%;
@@ -17,7 +20,7 @@ $link: #fff;
      .links_box{
         width: 60%;
         height: 50px;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         padding-top: 20px;
         padding-right: 20px;
@@ -62,6 +65,6 @@ $link: #fff;
             color: transparent;
             background-color: #fff;
             background-clip: text;
-            text-shadow: 0px 5px 5px #0400ff;
+            text-shadow: 0px 5px 5px #00a2ff;
           }
         } 
