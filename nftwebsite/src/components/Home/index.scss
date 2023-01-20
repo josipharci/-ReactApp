@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+$font-pix:'VT323', monospace;
 
-
+.container_index{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+     h2{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        font-size: 40px;
+        font-family: $font-pix;
+     }
+}
 
