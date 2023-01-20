@@ -4,6 +4,7 @@ $link: #fff;
 $font-pix:'VT323', monospace;
 
 .sidebar{
+    z-index: 1;
     font-family: $font-pix;
     position: absolute;
     top: 0;
