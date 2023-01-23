@@ -180,13 +180,3 @@ $font-pix:'VT323', monospace;
     }
   }
   
-  p {
-    animation: animated-text 1.5s steps(29,end) 1s 1 normal both,
-  }
-
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 500px;}
-  }
-
- 

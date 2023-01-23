@@ -20,7 +20,7 @@ const Sidebar = () => (
             <FontAwesomeIcon icon={faEnvelope} color='#fff'/>Contact
         </NavLink>
         </div>
-    </div>
+   </div>
 
 )
 
