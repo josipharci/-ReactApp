@@ -27,15 +27,60 @@ nav{
      }
      a{
         text-decoration: none;
-        font-size: 25.8px;
+        font-size: 20.8px;
         font-weight: 600;
+        padding: 10px 6px;
         color: #fff;
+        position: relative;
+        display: block;
+        transition: .5s;
+        z-index: 1;
         .icon{
-          width: 20px;
-          height: 20px;
+          width: 18px;
+          height: 18px;
           padding: 0px 7px;
         }
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-top: 2px solid rgb(255, 255, 255,0.3);
+            border-bottom: 2px solid rgb(255, 255, 255,0.3);
+            border-radius: 5px;
+            transform: scaleY(2);
+            opacity: 0;
+            transition: .3s;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255, 255, 255,0.3);
+            transform: scale(0);
+            opacity: 0;
+            transition: .3s;
+            z-index: -1;
+          }
+          &:hover {
+            color: #fff;
+            &:before {
+              transform: scaleY(1);
+              opacity: 1;
+            }
+            &:after {
+              transform: scaleY(1);
+              opacity: 1;
+            }
+          }
      }
-    
+    a:active{
+        border-bottom: 5px solid rgb(255, 255, 255,0.5);
+      }
    }
 }
