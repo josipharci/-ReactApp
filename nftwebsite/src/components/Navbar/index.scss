@@ -7,7 +7,6 @@ nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   background: rgb(0, 113, 189, 0.3);
    padding: 5px 28px;
    .logo{
      width: 200px;
@@ -78,9 +77,19 @@ nav{
               opacity: 1;
             }
           }
+          a.active{
+            border-bottom: 5px solid rgb(255, 255, 255,0.5);
+            color: rgb(255, 255, 255,0.5);
+         }
      }
-    a:active{
-        border-bottom: 5px solid rgb(255, 255, 255,0.5);
-      }
    }
+   #mobile{
+    width: 10%;
+    #icon_mobile{
+        color: #fff;
+        width: 20px;
+        height: 20px;
+    }
+ }
+   
 }
