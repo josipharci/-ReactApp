@@ -4,9 +4,7 @@ import './index.scss';
 const Home = () => {
     return (
       <>
-       <div id="particles-js">
-        
-       </div>
+       
       </>
     );
 }
