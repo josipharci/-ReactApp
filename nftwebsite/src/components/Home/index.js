@@ -3,7 +3,11 @@ import './index.scss';
 
 const Home = () => {
     return (
-      <div></div>
+      <>
+       <div id="particles-js">
+        
+       </div>
+      </>
     );
 }
 export default Home;
