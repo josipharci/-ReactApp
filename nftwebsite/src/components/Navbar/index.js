@@ -9,7 +9,8 @@ class Navbar extends
  Component {
   state={ clicked: false };
   handleClick = () =>{
-    
+    this.setState({clicked:
+    !this.state.clicked})
   }
    render(){
    return (
@@ -27,7 +28,7 @@ class Navbar extends
             <li class="social_link"><a href="/"><FontAwesomeIcon icon={faLinkedin} color='#fff'/></a></li>       
           </ul>
         </div>
-        <div id="mobile">
+        <div id="mobile" onClick={this.handleClick}>
           <FontAwesomeIcon id="icon_mobile" icon={
             this.state.clicked ? 
             faTimes : 
