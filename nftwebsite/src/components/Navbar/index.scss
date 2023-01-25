@@ -20,7 +20,6 @@ nav{
      font-family: $font-pix;
      li{
         list-style: none;
-        padding: 0 10px;
         position: relative;
      }
      .social_link{
@@ -37,8 +36,7 @@ nav{
         transition: .5s;
         z-index: 1;
         .icon{
-          width: 18px;
-          height: 18px;
+          width: 30px;
           padding: 0px 7px;
         }
         &:before {
@@ -79,7 +77,7 @@ nav{
               opacity: 1;
             }
           }
-          a.active{
+          &:active{
             border-bottom: 5px solid rgb(255, 255, 255,0.5);
             color: rgb(255, 255, 255,0.5);
          }
@@ -103,16 +101,32 @@ nav{
     justify-content: flex-start;
     position: fixed;
     top: 100px;
-    right: 0px;
+    right: -300px;
     width: 300px;
     height: 100vh;
     background:linear-gradient(
       -119deg,
       #5581F1 0%,
       #1153FC 100%); 
-      margin: 0;
+    margin: 0;
+    padding: 0  120px 530px  0;
+    transition: 0.3s ease-in-out;
+    li{
+      width: 150px;
+      height: 50px;
+    }
   }
+  #navbar.active{
+     right: 0px; 
+  }
+
+  
  #mobile{
    display: block;
+    #icon_mobile{
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
  }
 }
