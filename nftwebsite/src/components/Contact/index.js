@@ -1,7 +1,9 @@
 import './index.scss';
+import img from '../../assets/images/nft_3.png';  
 
 const Contact = () => {
     return(
+    <>
     <form id="contact-form"  method="POST">
         <div className="form-group">
             <label htmlFor="name">Name</label>
@@ -17,6 +19,8 @@ const Contact = () => {
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
     </form>
+    <img src={img} alt="img"/>
+    </>
     );
 }
 
