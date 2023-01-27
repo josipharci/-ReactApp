@@ -53,3 +53,11 @@ $font-pix:'VT323', monospace;
     }
   }
 }
+
+@media screen and (max-width:320px){
+  .index{
+    img{
+      width: 300px;
+    }
+  }
+}

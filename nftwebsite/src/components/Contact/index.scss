@@ -83,3 +83,22 @@ $font-pix:'VT323', monospace;
         }
     }
 }
+
+@media screen and (max-width:320px){
+    .contact{
+        overflow: scroll;
+        form{
+         .form-group{
+            width: 300px;
+         }  
+         button{
+            width: 300px;
+         }
+        }
+       
+        img{
+            width: 300px;
+        }
+
+    }
+  }
