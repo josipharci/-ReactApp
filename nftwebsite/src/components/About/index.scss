@@ -25,7 +25,23 @@ $font-pix:'VT323', monospace;
     }
 }
 
-
+@media screen and (max-width:725px){
+   
+    .About{
+        width: 100%;
+        text-align: center;
+        p{
+          font-size: 18px;
+         
+        }
+        img{
+            width: 320px;
+            height: 300px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
 
 @media screen and (max-width:320px){
     body{
