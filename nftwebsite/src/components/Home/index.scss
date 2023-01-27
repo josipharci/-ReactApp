@@ -43,7 +43,7 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:769px){
   .index{
-    overflow-y: scroll;
+    overflow: scroll;
     p{
       font-size: 30px;
       padding: 10px 15px;

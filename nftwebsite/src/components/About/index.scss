@@ -27,7 +27,7 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:769px){
     .About{
-        overflow-y: scroll;
+        overflow: scroll;
     }
 }
 

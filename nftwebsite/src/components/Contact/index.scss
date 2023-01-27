@@ -78,7 +78,7 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:769px){
     .contact{
-        overflow-y: scroll;
+        overflow: scroll;
         img{
             height: 500px;
         }
