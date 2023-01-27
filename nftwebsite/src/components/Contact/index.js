@@ -4,6 +4,8 @@ import img from '../../assets/images/nft_3.png';
 const Contact = () => {
     return(
     <>
+    <div class="contact">
+        <h2>Contact</h2>
     <form id="contact-form"  method="POST">
         <div className="form-group">
             <label htmlFor="name">Name</label>
@@ -20,6 +22,7 @@ const Contact = () => {
         <button type="submit" className="btn btn-primary">Submit</button>
     </form>
     <img src={img} alt="img"/>
+    </div>
     </>
     );
 }
