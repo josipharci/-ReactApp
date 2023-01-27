@@ -78,6 +78,7 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:769px){
     .contact{
+        overflow: scroll;
         form{
             .form-group{
                width: 300px;
@@ -88,7 +89,7 @@ $font-pix:'VT323', monospace;
          }
         img{
             width: 325px;
-            height: 400px;
+            height: 500px;
             margin-right: auto;
             margin-left: auto;
         }
@@ -97,7 +98,6 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:320px){
     .contact{
-        overflow: scroll;
         form{
          .form-group{
             width: 300px;
