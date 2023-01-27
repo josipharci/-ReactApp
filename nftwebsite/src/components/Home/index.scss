@@ -57,6 +57,7 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:320px){
   .index{
+    width: 300px;
     img{
       width: 300px;
     }
