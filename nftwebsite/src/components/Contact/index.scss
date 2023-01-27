@@ -78,8 +78,19 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:769px){
     .contact{
+        form{
+            .form-group{
+               width: 300px;
+            }  
+            button{
+               width: 300px;
+            }
+         }
         img{
-            height: 500px;
+            width: 325px;
+            height: 400px;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
 }
