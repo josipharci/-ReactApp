@@ -97,6 +97,7 @@ $font-pix:'VT323', monospace;
 
 @media screen and (max-width:320px){
     .contact{
+        overflow: scroll;
         form{
          .form-group{
             width: 300px;

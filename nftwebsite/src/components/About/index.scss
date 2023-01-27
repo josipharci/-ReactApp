@@ -28,6 +28,7 @@ $font-pix:'VT323', monospace;
 @media screen and (max-width:725px){
    
     .About{
+        overflow: scroll;
         width: 100%;
         text-align: center;
         p{
