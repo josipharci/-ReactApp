@@ -20,3 +20,9 @@ body{
      #5581F1 0%,
      #1153FC 100%); 
 }
+
+@media screen and (max-width:769px){
+  body{
+    overflow: scroll;
+  }
+}
