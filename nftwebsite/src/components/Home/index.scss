@@ -40,3 +40,16 @@ $font-pix:'VT323', monospace;
     }
   } 
 }
+
+@media screen and (max-width:769px){
+  .index{
+    p{
+      font-size: 30px;
+      padding: 10px 15px;
+      margin-top: 10px;
+    }
+    a{
+      margin-top: 15px;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import img from '../../assets/images/nft_3.png';
 const Contact = () => {
     return(
     <>
-    <div class="contact">
+    <div className="contact">
         <h2>Contact</h2>
     <form id="contact-form"  method="POST">
         <div className="form-group">

@@ -75,3 +75,11 @@ $font-pix:'VT323', monospace;
         margin-top: 2%;
      }
 }
+
+@media screen and (max-width:769px){
+    .contact{
+        img{
+            height: 500px;
+        }
+    }
+}
