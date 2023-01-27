@@ -28,11 +28,19 @@ $font-pix:'VT323', monospace;
 
 
 @media screen and (max-width:320px){
+    body{
+        width: 320px;
+    }
     .About{
         width: 320px;
+        text-align: center;
+        p{
+          font-size: 18px;
+         
+        }
         img{
-            width: 300px;
-            height: 400px;
+            width: 320px;
+            height: 300px;
             margin-right: auto;
             margin-left: auto;
         }

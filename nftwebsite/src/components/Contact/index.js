@@ -5,7 +5,7 @@ const Contact = () => {
     return(
     <>
     <div className="contact">
-        <h2>Contact</h2>
+        <h2 className="sub">Contact</h2>
     <form id="contact-form"  method="POST">
         <div className="form-group">
             <label htmlFor="name">Name</label>
@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
     </form>
-    <img src={img} alt="img"/>
+    <img className="img" src={img} alt="img"/>
     </div>
     </>
     );

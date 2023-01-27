@@ -5,14 +5,15 @@ const Home = () => {
     return (
       <>
        <div class="index">
-            <h2>Lucky Rabbit Club</h2>
-            <p>An Environment that is connecting Creative and like-minded people, communiti-driven project!</p>
+            <h2 className="header">Lucky Rabbit Club</h2>
+            <p className="text">An Environment that is connecting Creative and like-minded people, communiti-driven project!</p>
             <a 
+             className="link"
              href='/About'
              rel='noreferrer'>
              NEXT
             </a>
-            <img src={img} alt="img"/>
+            <img className="img_1" src={img} alt="img"/>
        </div>
       </>
     );
