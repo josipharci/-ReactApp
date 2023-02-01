@@ -4,7 +4,7 @@ import {Routes,Route} from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
-import Project from './components/Project';
+import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 function App(){
   return (
@@ -13,7 +13,7 @@ function App(){
       <Route path="/" element={<Layout />}>
       <Route index element={<Home />}/>
       <Route path='About' element={<About />}/>
-      <Route path='Project' element={<Project />}/>
+      <Route path='Gallery' element={<Gallery />}/>
       <Route path='Contact' element={<Contact />}/>
       </Route>
     </Routes>
