@@ -2,64 +2,72 @@
 
 $font-pix:'VT323', monospace;
 
-.About{
-    width: 100%;
+@import "sass-rem";
+
+$rem-baseline: 10px;
+
+.about{
+    width: 50%;
     height: 100vh;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: $font-pix;
+    text-align: center;
+    overflow: scroll;
     h2{
-        font-size: 50px;
+        font-size: rem(45px);
         margin-top: 2%;
+        text-shadow: 5px 5px 2px #00a2ff;
     }
     p{
         width: 90%;
         margin-top: 1%;
         margin-left: auto;
         margin-right: auto;
-        font-size: 25px;
+        font-size: rem(25px);
     }
-    img{
+    .img{
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 5%;
-        width: 500px;
-        height: 450px;
+         img{
+            width: 150px;
+            height: 150px;
+            margin-right: auto;
+            margin-left: auto;
+         }
     }
 }
+
+.about::-webkit-scrollbar {
+    display: none;
+}
+.about{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
 
 @media screen and (max-width:725px){
    
     .About{
-        overflow: scroll;
         width: 100%;
         text-align: center;
         p{
           font-size: 18px;
          
         }
-        img{
-            width: 350px;
-            height: 400px;
-            margin-right: auto;
-            margin-left: auto;
-        }
     }
 }
 
 @media screen and (max-width:320px){
-    body{
-        width: 320px;
-    }
     .About{
-        width: 320px;
+        width: 100%;
         text-align: center;
         p{
           font-size: 18px;
          
-        }
-        img{
-            width: 320px;
-            height: 300px;
-            margin-right: auto;
-            margin-left: auto;
         }
     }
 }

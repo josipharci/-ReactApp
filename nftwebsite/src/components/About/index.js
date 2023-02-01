@@ -6,7 +6,7 @@ import img from '../../assets/images/nft_2.png';
 const About = () => {
    return(
     <>
-         <div className="About">
+         <div className="about">
            <h2 className="header_about">ABOUT</h2>
            <p className="text_2">
            The Lucky Rabbit Club is a series of high-quality, unique, and collectible non-fungible tokens (NFTs) featuring the artwork of the Lucky Rabbit Collective!
@@ -14,7 +14,9 @@ const About = () => {
            The Lucky Rabbit NFTs will be available for mint and purchase through various online marketplaces and platforms. Keep an eye out for announcements from the Lucky Rabbit Collective on social media or their website for details on how and where to purchase the NFTs.  
            We always continue to build, grow our community, giveaways, holders rewards and some promotions on socials! Website almoust ready to go live and we have some BIIG NEWS for y'all... Stay tuned for updates!
            </p>
+           <div className="img">
            <img className="img_2" src={img} alt="img"/>
+           </div>
          </div>
     </>
    );
