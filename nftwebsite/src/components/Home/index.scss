@@ -6,38 +6,28 @@ $rem-baseline: 10px;
 
 $font-pix:'VT323', monospace;
 
-.index{
+.container{
   position: relative;
-  text-align: center;
-  padding: 15px 0;
-    h2{
-      display: block;
-      font-size: rem(40px);
-      font-family: $font-pix;
-      text-decoration-line: underline;
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  border-bottom:5px solid #fff;
+  border-top:2px solid #fff;
+   .col{
+     flex: 1;
+      .header{
+        text-align: center;
+        
+      }
+      .text{
+        text-align: center;
+      }
+   }
+   .col:nth-last-child(1){
+     text-align: center;
+    img{
+      height: 590px;
+      
     }
-    p{
-      display: block;
-      font-size: rem(22px);
-      font-family: $font-pix;
-    }
-    a{
-      width: 300px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
-      padding:10px 5px;
-      font-size: rem(15px);
-      border: 5px solid #fff;
-      border-radius: 5px;
-      color: #fff;
-      font-weight: 800;
-      text-decoration-line: none;
-    }
-    a:hover{
-      color:#00c3ff;
-      border-color:#00c3ff;
-      background: #fff;
-    }
+   }
 }
