@@ -7,7 +7,6 @@ const Layout = () => {
     return (
         
         <div className='App'>
-            
             <Navbar/>
             <div className='page'>
                 <span className='tags top-tags'>&lt;body&gt;</span>

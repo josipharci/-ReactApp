@@ -5,7 +5,11 @@ import './index.scss';
 const Home = () => {
     return (
       <>
-          
+         <div className="container header">
+            <div className="centered">
+               <h1>Lucky Rabbit Club</h1>
+            </div>
+         </div> 
       </>
     );
 }
