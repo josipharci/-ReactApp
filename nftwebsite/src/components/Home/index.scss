@@ -136,8 +136,6 @@ $font-pix:'VT323', monospace;
 
 .about{
   height: 500px;
-  background-image: url('../../assets/images/Backgraund.png');
-  background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 20px;
   border-radius: 10px;
@@ -184,7 +182,63 @@ $font-pix:'VT323', monospace;
         }
     }
 }
-
+@media only screen and (max-width:768px){
+  .about{
+    width: 100%;
+    height: 1200px;
+      .content{
+        width: 100%;
+        height: 1200px;
+        position: relative;
+        text-align: center;
+          h2{
+            font-size: 2.7rem;
+            top:2.5%;
+            left:5%;
+            right:5%;
+            margin-top: 5px;
+          }
+          p{
+            left:5%;
+            right:5%;
+            top: 8%;
+            display: inline-block;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            text-shadow: none;
+            
+          }
+          .text2{
+            top:19.5%;
+            display: inline-block;
+            text-align: center;
+          }
+          .text3{
+           top:65.5%;
+           display: inline-block;
+           text-align: center;
+          }
+          .text4{
+            top:78%;
+            text-align: center;
+            display: inline-block;
+            position: none;
+          }
+          img{
+            width:100%;
+            height: 350px;
+            top:35%;
+            background:#00a5ff;
+            animation: color 10s infinite linear;
+            left: 0;
+            right: 0;
+            display: inline-block;
+            z-index: 0;
+            transform: none; 
+          }
+      }
+  }
+}
 @media only screen and (max-width:425px){
   .about{
     width: 100%;
@@ -257,4 +311,15 @@ $font-pix:'VT323', monospace;
       }
     }
   }
+}
+
+.contact{
+  height:500px;
+  background-image: url('../../assets/images/Backgraund.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+  color: #fff;
+  text-align: center;
 }

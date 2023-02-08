@@ -48,6 +48,22 @@ const Home = () => {
                </p>
             </div>
          </div>
+         <div className="container contact">
+            <div className="contact_box">
+               <h2>Contact</h2>
+               <form action="#">
+                  <label htmlFor="E-mail">E-mail:</label>
+                  <input type="email" />
+                  <label htmlFor="name">Name:</label>
+                  <input type="text" />
+                  <label htmlFor="title">Title:</label>
+                  <input type="text" />
+                  <label htmlFor="message">Message:</label>
+                  <textarea name="mass" id="" cols="30" rows="10"></textarea>
+
+               </form>
+            </div>
+         </div>
       </>
     );
 }
